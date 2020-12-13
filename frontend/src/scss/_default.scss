@@ -1,0 +1,21 @@
+//applying this to every element
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; //to properly fix padding and margin with an element like a box constraint
+}
+
+body{
+  background-image: linear-gradient(rgb(173, 245, 114), rgb(250, 250, 106),0.254turn);
+  background-color: rgba(204, 66, 66, 0.856);
+}
+
+a{
+  text-decoration: none;
+  color: rgba(11, 141, 91, 0.37);
+}
+
+
+li{
+  list-style: none;
+}

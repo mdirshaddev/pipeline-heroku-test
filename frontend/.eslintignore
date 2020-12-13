@@ -1,0 +1,12 @@
+webpack/
+design/
+core/
+app/
+backend/
+model/
+public/
+screenshots/
+
+
+# before building out something
+src/

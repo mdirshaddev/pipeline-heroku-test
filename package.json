@@ -1,0 +1,24 @@
+{
+  "name": "irshadon",
+  "version": "1.0.0",
+  "description": "an ecommerce website",
+  "main": "server.js",
+  "scripts": {
+    "install-client": "cd frontend && npm install --dev",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "build": "cd frontend && npm run build",
+    "start": "nodemon server.js"
+  },
+  "author": "Md Irshad",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
